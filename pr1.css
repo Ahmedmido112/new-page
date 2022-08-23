@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif ;
+    
+}
+.baner{
+    height: 150vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(pexels-anna-rye-9751512.jpg);
+    background-size: cover;
+    background-position:center ;
+    overflow: scroll;
+
+}
+.head{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    color: aqua;
+    justify-content: space-between;
+    
+}
+
+.head ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    
+}
+ul li{
+    margin: 15px;
+    color: aqua;
+    text-transform: uppercase;
+    border-bottom: solid 2px blue;
+}
+h1{
+    cursor: pointer;
+    margin-left:-20px;
+    margin-top:10px ;
+    border-bottom: solid 2px blue;
+}
+.containt{
+    width: 90%;
+    /* margin: 15px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.containt .bt{
+    margin-top: 150px;
+    border: solid blue 1px;
+    color: aqua;
+    width: 30%;
+    margin-left: 90px;
+    border-radius: 20px;
+    
+}
+.containt .fr{
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border: solid blue 1px;
+    text-align: center;
+    color: aqua;
+    margin-left: 150px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+input[type="email"],input[type="password"]{
+    width: 90%;
+    border: none;
+    background: none;
+    outline: none;
+    color: aqua;
+    border-bottom: aqua solid 2px;
+    margin: 10px;
+}
+input[type="email"]:focus,input[type="password"]:focus{
+    width: 95%;
+    border-bottom:solid 2px blue ;
+    transition: 1s;
+
+}
+h2{
+    margin: 10px;
+    cursor: pointer;
+}
+h2:hover{
+    color: #009688;
+    font-weight: lighter;
+    transition: 1s;
+}
+[value="Sign up"],[value="Sign in"]{
+    width: 50%;
+    background: aqua;
+    border-radius: 15px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+}
+[value="Sign up"]:hover,[value="Sign in"]:hover{
+    width: 60%;
+    transition: 1s;
+    background-color: #009688;
+    font-weight: bold;
+}
+label{
+    color: aqua;
+    width: 90%;
+}
+label:hover{
+    color: #009688;
+    
+}
+
+.bt p{
+    line-height: 30px;
+    margin: 7px;
+}
+.head ul li:hover,h1:hover{
+    border-bottom: #009688 solid 2px;
+    transition: 1s;
+}
+.bt [value="Sign In"],[value="subscribe"]{
+    text-align: center;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: aqua;
+    border-radius: 15px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+[value="Sign In"]:hover,[value="subscribe"]:hover{
+    width: 60%;
+    transition: 1s;
+    background-color: #009688;
+    font-weight: bold;
+}
+[value="contact with me "]{
+    width:50%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 80px;
+    background: aqua;
+    border-radius: 15px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+[value="contact with me "]:hover{
+    width:60% ;
+    width: 60%;
+    transition: 1s;
+    background-color: #009688;
+    font-weight: bold;
+}
+.pr{
+    width: 90%;
+    border:none;
+    outline: none;
+    background: none;
+    left: 80%;
+    top: 100%;
+    position: absolute;
+    transform: translate(-50%,-10%);
+    color: aqua;
+    line-height: 45px;
+}
+.r{
+    margin-left: 90px;
+    border: none;
+    border-bottom:blue solid 2px ;
+    width: 18%;
+    
+}
+.r:hover{
+    border-bottom: aqua solid 2px;
+    transition: 1s;
+    color: #009688;
+}
+.pr p{
+    letter-spacing: 4px;
+}
+.T{
+    margin-left: 90px;
+    border: none;
+    border-bottom:blue solid 2px ;
+    width: 17%;
+}
+.T:hover{
+    border-bottom: aqua solid 2px;
+    transition: 1s;
+    color: #009688;
+}
